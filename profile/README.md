@@ -1,13 +1,14 @@
 # CronAI Labs
 
-Markdown-native and AI-assisted tooling, built in the open where it makes sense to be.
+Open-source tools from [CronAI](https://www.cronai.de), a founder-led software company in Munich. A person designs the flow, the machine runs it, and the record shows what it did.
 
 ## Projects
 
 | Project | What it is | Status |
 |---|---|---|
-| [VaultOre](https://github.com/cronai-labs/vaultore) | A Markdown-native AI workflow engine for Obsidian — run AI, TypeScript and shell cells inside your notes, sandboxed in containers, on a cron schedule. | Pre-release — build from source |
-| [OKF Vault Kit](https://github.com/cronai-labs/okf-vault-kit) | An Obsidian vault that is also an Open Knowledge Format bundle — on-device hybrid search, a local 2B model over MCP, and an explicit knowledge graph. Nothing leaves your machine. | Alpha · [![release](https://img.shields.io/github/v/release/cronai-labs/okf-vault-kit?sort=semver&label=)](https://github.com/cronai-labs/okf-vault-kit/releases/latest) |
+| [VaultOre](https://github.com/cronai-labs/vaultore) | Runs workflows written as Markdown notes in Obsidian: TypeScript, shell and AI cells, each code cell in its own container, results written back under the cell, on a cron schedule. | [![release](https://img.shields.io/github/v/release/cronai-labs/vaultore?sort=semver&label=)](https://github.com/cronai-labs/vaultore/releases/latest) · in Obsidian's community plugins |
+| [Ore](https://github.com/cronai-labs/ore-spec) | The open format behind VaultOre: executable workflow notes in Markdown that declare their permissions before anything runs. Specification, CC BY 4.0. | Draft · [![release](https://img.shields.io/github/v/release/cronai-labs/ore-spec?sort=semver&label=)](https://github.com/cronai-labs/ore-spec/releases/latest) |
+| [OKF Vault Kit](https://github.com/cronai-labs/okf-vault-kit) | An Obsidian vault that is also an Open Knowledge Format bundle — on-device hybrid search, a local 2B model over MCP, and an explicit knowledge graph. Search and the model run on your machine by default. | Alpha · [![release](https://img.shields.io/github/v/release/cronai-labs/okf-vault-kit?sort=semver&label=)](https://github.com/cronai-labs/okf-vault-kit/releases/latest) |
 | [schriftsatz](https://github.com/cronai-labs/schriftsatz) | Markdown to print-ready PDF via pandoc and XeLaTeX — content-measured table widths, and a text layer that survives extraction. | [![release](https://img.shields.io/github/v/release/cronai-labs/schriftsatz?sort=semver&label=)](https://github.com/cronai-labs/schriftsatz/releases/latest) · `brew install cronai-labs/tap/schriftsatz` |
 
 ## Infrastructure
